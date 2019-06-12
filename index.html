@@ -26,14 +26,22 @@
     </div>
 
     <main>
+      <div class="header-img">
+        <img
+          src="/assets/header-img.PNG"
+          width="325px"
+          height="auto"
+          alt="header image"
+        />
+      </div>
       <form class="wrapper">
         <h2>Create an Intuit account</h2>
         <p>One account for everything Intuit. <a href="#">Learn more</a></p>
         <p>Already have an account? <a href="#">Sign In</a></p>
         <label for="email">Email address</label>
-        <input type="email" name="email" />
+        <input type="email" class="email" name="email" />
         <label for="phone">Phone (recommended)</label>
-        <input type="tel" name="phone" />
+        <input type="tel" class="phone" name="phone" />
         <span>Standard call, messaging or data rates may apply.</span>
         <label for="password">Password</label>
         <input type="password" name="password" />
@@ -45,10 +53,12 @@
           <a href="#">Terms of Service</a> and have read and acknowledge our
           <a href="#">Privacy Statement</a>.
         </p>
-        <p>
-          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
-          <a href="#">Terms of Use</a>.
-        </p>
+        <div class="captcha">
+          <p>
+            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Use</a>.
+          </p>
+        </div>
       </form>
     </main>
   </body>

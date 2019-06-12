@@ -58,6 +58,12 @@ a {
   left: 18%;
 }
 
+.header-img {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
 form {
   max-width: 400px;
   display: block;
@@ -65,6 +71,8 @@ form {
   background-color: white;
   border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
+  position: relative;
+  padding-bottom: 45px !important;
 }
 
 .wrapper {
@@ -82,11 +90,42 @@ form h2 {
 
 form p {
   text-align: center;
+  line-height: 1.2;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 form input {
   width: 100%;
   margin: 10px auto;
-  padding: 10px 30px;
+  height: 35px;
   display: block;
+  border-radius: 2px;
+  border: 1px solid gray;
+  padding: 1px 15px;
+}
+form .phone {
+  margin-bottom: 3px;
+}
+
+form span {
+  font-size: 0.6rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.captcha {
+  background-color: rgb(238, 238, 238);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 45px;
+}
+
+.captcha p {
+  font-size: 0.6rem;
+  padding: 10px;
+  transform: translateY(30%);
 }
